@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000001
-  secret: MY_SECRET_20230511_DEV33
+  secret: MY_SECRET_20230511_DEV44
 
 gateway:
   ip: 192.168.0.76
