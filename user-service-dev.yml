@@ -3,11 +3,11 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password:
+    password: '{cipher}AQBxRhUxXlXppyQipxVkrKYWFQGfiblNT2QYtH8IhA3HpcsmS06wWSRV0xF5sUFumM7454MMyyxV1R/K/FSADMEHFeJHuyTIFVfc9bqiDA5nVObTIDWb35Qg/5t+mqYRXWSCTe/bwKtH7adQb+P6Wnq4QUKZXExQ0YFX6j43KBt6NQi25x+xBgMzavGxFfpfy+NW3kqjaMv85YxEARfTLsR2NgdiTxTGbn21NaWhkaNzxgk7myot5Zy9hlysKkNe0YhnnyK/Nf8JxwOT0/9jMLfJio7woiO4YG+liPthKbtT61qn8wYUr0XhU318ZuJ9r6sNWHB19dBPCRRjtgWc3H87q+A3xQN0xKXt5UeF11YLAehpEy3g3gK9yRl32ByWrc8='
 
 token:
   expiration_time: 864000001
-  secret: MY_SECRET_20230511_DEV44
+  secret: MY_SECRET_20230511_DEV
 
 gateway:
   ip: 192.168.0.76
