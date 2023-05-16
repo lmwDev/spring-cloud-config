@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: AQBSsCwukOkuaDnKzp40rIMxPU7HWCREHObStY3ZWeW5VMzSxWiQ11X7aJGLMbXjrKculJ5z2/3Fjx+Z0gBzsRI0zwgOrruWuKNGEwsqu+PF80OMkq43h9j87bhlUUpMaCXQbo4742hY0Ax7hCextApEgVcUf0TkI7QcvdCFdp/YgLDNUjm6xoZzp7QstZl2HEWjNS/V5doXSpk4lZ7Wn1ow8g8FE9gVjfb/TwvGfp5csBrfI43jsa6X5/pmaAeFyUawZZKVfnMPYHQHiGErFXBke0DzjUoLAV8JXJ7V/5ma1O/qcgDqfxvl8GcY0PkDTvCQflrH/H7v9JP2SKoONU9A/3SBJokVIZ3UzOGMpVMnNunqccKd4MolcmyzGEf1alY=
+    password:
+
 token:
   expiration_time: 864000001
   secret: MY_SECRET_20230511_DEV44
