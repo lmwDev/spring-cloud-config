@@ -3,7 +3,7 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}AQBxRhUxXlXppyQipxVkrKYWFQGfiblNT2QYtH8IhA3HpcsmS06wWSRV0xF5sUFumM7454MMyyxV1R/K/FSADMEHFeJHuyTIFVfc9bqiDA5nVObTIDWb35Qg/5t+mqYRXWSCTe/bwKtH7adQb+P6Wnq4QUKZXExQ0YFX6j43KBt6NQi25x+xBgMzavGxFfpfy+NW3kqjaMv85YxEARfTLsR2NgdiTxTGbn21NaWhkaNzxgk7myot5Zy9hlysKkNe0YhnnyK/Nf8JxwOT0/9jMLfJio7woiO4YG+liPthKbtT61qn8wYUr0XhU318ZuJ9r6sNWHB19dBPCRRjtgWc3H87q+A3xQN0xKXt5UeF11YLAehpEy3g3gK9yRl32ByWrc8='
+    password: '{cipher}AQB3Wnw081rrwh/U70YAr/6HFnkbm28Tbt0gmkv8CJT7nur0TOAYXStAY2q+TIe27VE4iubEi4QgwuptCW14nHcIO/3RrcVtYqEYgQct8f6+JPgM2R6DDfEXHt+XhzHkI9PKTxEfx/D+zwMGsOz6Y7nkfNfMo6fcNnhlPpwPWAC42osRaHk59Wl95MPHlib2D+tp3WLh5HypnX4se5Pz/wo7bwXF8VQ97WujHGpGJlqZ7Ll/gAj/B5n02Uzxik1lK3annrij2lV8YYiOI7+hJKFWfSQTabCbhLqgT5RXen9cqUbs4uo6ZR5ForHv9Jap7ilEr1G2RYFoyF7TUuWZIkCwCOx9bXW7CdkjpWz3vQypn8coclctGiD7QwECwgbAr1g='
 
 token:
   expiration_time: 864000001
@@ -11,3 +11,6 @@ token:
 
 gateway:
   ip: 192.168.0.76
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
