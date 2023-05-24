@@ -10,7 +10,7 @@ token:
   secret: MY_SECRET_20230511_DEV
 
 gateway:
-  ip: 192.168.0.76
+  ip: 172.18.0.3
 
 order_service:
   url: http://ORDER-SERVICE/order-service/%s/orders
